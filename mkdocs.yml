@@ -1,0 +1,8 @@
+site_name: 'MSD-Docs'
+
+nav:
+  - Home: index.md
+  - Howto: kuharica.md
+
+plugins:
+  - techdocs-core

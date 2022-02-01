@@ -1,0 +1,23 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage
+  description: |
+    Backstage is an open-source developer portal that puts the developer experience first.
+  links:
+    - title: Website
+      url: http://localhost
+    - title: Documentation
+      url: http://localhost/docs
+#    - title: Storybook
+#      url: https://backstage.io/storybook
+#    - title: Discord Chat
+#      url: https://discord.com/invite/EBHEGzX
+  annotations:
+    github.com/project-slug: pants0/backstage
+    backstage.io/techdocs-ref: dir:.
+#    lighthouse.com/website-url: http://localhost
+spec:
+  type: library
+  owner: pants0
+  lifecycle: experimental
